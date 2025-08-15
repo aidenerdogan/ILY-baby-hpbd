@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Happy Birthday!</title>
+  <meta charset="UTF-8">
+  <title>Happy Birthday, My Love!</title>
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <h1>Happy Birthday, my love!</h1>
-  <p>Wishing you the happiest birthday ever!</p>
+  <div class="container">
+    <h1>Happy Birthday, My Love! 🎂💖</h1>
+    <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80" alt="Birthday" class="birthday-img">
+    <p class="message">
+      To the most wonderful person in my life,<br>
+      You make every day brighter and my heart fuller.<br>
+      I hope your birthday is as beautiful and special as you are.<br>
+      I love you more than words can say! 💕
+    </p>
+    <div class="hearts">
+      <span>💗</span><span>💖</span><span>💘</span><span>💝</span><span>💞</span>
+    </div>
+    <button onclick="showSurprise()">Click for a Surprise!</button>
+    <div id="surprise" class="hidden">
+      <h2>🎉 You are my everything! 🎉</h2>
+      <p>Can't wait to celebrate with you! 😘</p>
+    </div>
+  </div>
+  <script src="scripts/main.js"></script>
 </body>
 </html>

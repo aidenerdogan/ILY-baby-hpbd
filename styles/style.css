@@ -1,0 +1,73 @@
+body {
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: rgba(255,255,255,0.85);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+  padding: 32px 24px;
+  text-align: center;
+}
+
+h1 {
+  color: #ff6f91;
+  font-size: 2.5em;
+  margin-bottom: 16px;
+}
+
+.birthday-img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 16px;
+  margin: 16px 0;
+  box-shadow: 0 4px 16px rgba(255,111,145,0.2);
+}
+
+.message {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.hearts span {
+  font-size: 2em;
+  margin: 0 4px;
+  animation: heartbeat 1.2s infinite;
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+}
+
+button {
+  background: #ff6f91;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 16px;
+}
+
+button:hover {
+  background: #ffb6b9;
+}
+
+#surprise {
+  margin-top: 24px;
+  color: #ff6f91;
+  font-size: 1.3em;
+}
+
+.hidden {
+  display: none;
+}
