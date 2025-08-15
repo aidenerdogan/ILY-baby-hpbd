@@ -1,0 +1,22 @@
+{
+  "name": "my-girlfriend-birthday-website",
+  "version": "1.0.0",
+  "description": "A birthday website for my girlfriend.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'",
+    "test": "echo 'No tests defined'"
+  },
+  "keywords": [
+    "birthday",
+    "website",
+    "gift"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
